@@ -15,6 +15,9 @@
 		EAAE7E9923C7051E005CD4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAE7E9723C7051E005CD4E4 /* LaunchScreen.storyboard */; };
 		EAAE7EA423C7051F005CD4E4 /* CombineSwiftUISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE7EA323C7051F005CD4E4 /* CombineSwiftUISampleTests.swift */; };
 		EAAE7EAF23C7051F005CD4E4 /* CombineSwiftUISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE7EAE23C7051F005CD4E4 /* CombineSwiftUISampleUITests.swift */; };
+		EAAE7EBD23C705DF005CD4E4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE7EBC23C705DF005CD4E4 /* ViewModel.swift */; };
+		EAAE7EBF23C705FD005CD4E4 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE7EBE23C705FD005CD4E4 /* Repository.swift */; };
+		EAAE7EC123C70611005CD4E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE7EC023C70611005CD4E4 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		EAAE7EAA23C7051F005CD4E4 /* CombineSwiftUISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineSwiftUISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAE7EAE23C7051F005CD4E4 /* CombineSwiftUISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSwiftUISampleUITests.swift; sourceTree = "<group>"; };
 		EAAE7EB023C7051F005CD4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAE7EBC23C705DF005CD4E4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EAAE7EBE23C705FD005CD4E4 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		EAAE7EC023C70611005CD4E4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				EAAE7E8C23C7051B005CD4E4 /* AppDelegate.swift */,
 				EAAE7E8E23C7051B005CD4E4 /* SceneDelegate.swift */,
 				EAAE7E9023C7051B005CD4E4 /* ContentView.swift */,
+				EAAE7EBC23C705DF005CD4E4 /* ViewModel.swift */,
+				EAAE7EBE23C705FD005CD4E4 /* Repository.swift */,
+				EAAE7EC023C70611005CD4E4 /* Model.swift */,
 				EAAE7E9223C7051E005CD4E4 /* Assets.xcassets */,
 				EAAE7E9723C7051E005CD4E4 /* LaunchScreen.storyboard */,
 				EAAE7E9A23C7051E005CD4E4 /* Info.plist */,
@@ -269,6 +278,9 @@
 			files = (
 				EAAE7E8D23C7051B005CD4E4 /* AppDelegate.swift in Sources */,
 				EAAE7E8F23C7051B005CD4E4 /* SceneDelegate.swift in Sources */,
+				EAAE7EBF23C705FD005CD4E4 /* Repository.swift in Sources */,
+				EAAE7EC123C70611005CD4E4 /* Model.swift in Sources */,
+				EAAE7EBD23C705DF005CD4E4 /* ViewModel.swift in Sources */,
 				EAAE7E9123C7051B005CD4E4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
